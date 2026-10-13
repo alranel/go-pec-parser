@@ -1,0 +1,10 @@
+module github.com/alranel/go-pec-parser
+
+go 1.26.3
+
+require github.com/JohannesKaufmann/html-to-markdown/v2 v2.5.2
+
+require (
+	github.com/JohannesKaufmann/dom v0.3.1 // indirect
+	golang.org/x/net v0.55.0 // indirect
+)

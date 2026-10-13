@@ -1,0 +1,99 @@
+MIME-Version: 1.0
+Date: Tue, 12 Sep 2023 09:59:56 +0200
+From: "Per conto di: alice@pec.example.it" <posta-certificata@pec.example.it>
+Reply-To: alice@pec.example.it
+To: bob@pec.altro.it
+Subject: POSTA CERTIFICATA: Contratto firmato
+Message-ID: <opec288.20230912095956.1.1@pec.example.it>
+X-Trasporto: posta-certificata
+X-Riferimento-Message-ID: <client-id@mail.client>
+X-TipoRicevuta: completa
+Content-Type: multipart/signed; protocol="application/pkcs7-signature"; micalg=sha1; boundary="OUTER"
+
+--OUTER
+Content-Type: multipart/mixed; boundary="INNER"
+
+--INNER
+Content-Type: multipart/alternative; boundary="ALT"
+
+--ALT
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Messaggio di posta certificata
+
+Il giorno 12/09/2023 alle ore 09:59:56 (+0200) il messaggio
+"Contratto firmato" proveniente da "alice@pec.example.it"
+ed indirizzato a "bob@pec.altro.it" e' stato accettato dal sistema.
+
+Identificativo messaggio: opec288.20230912095956.1.1@pec.example.it
+--ALT
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><p>Messaggio di posta certificata</p>
+<p>Il giorno 12/09/2023 alle ore 09:59:56 (+0200) il messaggio
+<strong>Contratto firmato</strong> proveniente da alice@pec.example.it
+ed indirizzato a bob@pec.altro.it e' stato accettato dal sistema.</p>
+</body></html>
+--ALT--
+
+--INNER
+Content-Type: application/xml; name="daticert.xml"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="daticert.xml"
+
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHBvc3RhY2VydCB0aXBvPSJw
+b3N0YS1jZXJ0aWZpY2F0YSIgZXJyb3JlPSJuZXNzdW5vIj4KICA8aW50ZXN0YXppb25lPgogICAg
+PG1pdHRlbnRlPmFsaWNlQHBlYy5leGFtcGxlLml0PC9taXR0ZW50ZT4KICAgIDxkZXN0aW5hdGFy
+aSB0aXBvPSJjZXJ0aWZpY2F0byI+Ym9iQHBlYy5hbHRyby5pdDwvZGVzdGluYXRhcmk+CiAgICA8
+cmlzcG9zdGU+YWxpY2VAcGVjLmV4YW1wbGUuaXQ8L3Jpc3Bvc3RlPgogICAgPG9nZ2V0dG8+Q29u
+dHJhdHRvIGZpcm1hdG88L29nZ2V0dG8+CiAgPC9pbnRlc3RhemlvbmU+CiAgPGRhdGk+CiAgICA8
+Z2VzdG9yZS1lbWl0dGVudGU+RXhhbXBsZSBQRUMgUy5wLkEuPC9nZXN0b3JlLWVtaXR0ZW50ZT4K
+ICAgIDxkYXRhIHpvbmE9IiswMjAwIj48Z2lvcm5vPjEyLzA5LzIwMjM8L2dpb3Jubz48b3JhPjA5
+OjU5OjU2PC9vcmE+PC9kYXRhPgogICAgPGlkZW50aWZpY2F0aXZvPm9wZWMyODguMjAyMzA5MTIw
+OTU5NTYuMS4xQHBlYy5leGFtcGxlLml0PC9pZGVudGlmaWNhdGl2bz4KICAgIDxtc2dpZD4mbHQ7
+Y2xpZW50LWlkQG1haWwuY2xpZW50Jmd0OzwvbXNnaWQ+CiAgICA8cmljZXZ1dGEgdGlwbz0iY29t
+cGxldGEiLz4KICA8L2RhdGk+CjwvcG9zdGFjZXJ0Pgo=
+--INNER
+Content-Type: message/rfc822; name="postacert.eml"
+Content-Disposition: attachment; filename="postacert.eml"
+
+MIME-Version: 1.0
+Date: Tue, 12 Sep 2023 09:59:50 +0200
+From: alice@pec.example.it
+To: bob@pec.altro.it
+Subject: Contratto firmato
+Message-ID: <opec288.20230912095956.1.1@pec.example.it>
+X-Riferimento-Message-ID: <client-id@mail.client>
+Content-Type: multipart/mixed; boundary="ORIG"
+
+--ORIG
+Content-Type: text/plain; charset=UTF-8
+
+Buongiorno,
+in allegato il contratto firmato.
+
+Cordiali saluti
+--ORIG
+Content-Type: application/pdf; name="contratto.pdf"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="contratto.pdf"
+
+JVBERi0xLjAKMSAwIG9iago8PC9UeXBlL0NhdGFsb2cvUGFnZXMgMiAwIFI+PgplbmRvYmoKMiAw
+IG9iago8PC9UeXBlL1BhZ2VzL0tpZHNbMyAwIFJdL0NvdW50IDE+PgplbmRvYmoKMyAwIG9iago8
+PC9UeXBlL1BhZ2UvTWVkaWFCb3hbMCAwIDMgM10+PgplbmRvYmoKeHJlZgowIDQKMDAwMDAwMDAw
+MCA2NTUzNSBmIAowMDAwMDAwMDA5IDAwMDAwIG4gCjAwMDAwMDAwNTggMDAwMDAgbiAKMDAwMDAw
+MDExNSAwMDAwMCBuIAp0cmFpbGVyCjw8L1NpemUgNC9Sb290IDEgMCBSPj4Kc3RhcnR4cmVmCjE3
+MgolJUVPRgo=
+--ORIG--
+
+--INNER--
+
+--OUTER
+Content-Type: application/pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+
+AAECAwQFBgc=
+--OUTER--

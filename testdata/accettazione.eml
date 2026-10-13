@@ -1,0 +1,51 @@
+MIME-Version: 1.0
+Date: Tue, 12 Sep 2023 09:59:56 +0200
+From: posta-certificata@pec.example.it
+To: alice@pec.example.it
+Subject: ACCETTAZIONE: Contratto firmato
+Message-ID: <opec288.20230912095956.2.1@pec.example.it>
+X-Ricevuta: accettazione
+X-Riferimento-Message-ID: <client-id@mail.client>
+Content-Type: multipart/signed; protocol="application/pkcs7-signature"; micalg=sha1; boundary="OUTER"
+
+--OUTER
+Content-Type: multipart/mixed; boundary="INNER"
+
+--INNER
+Content-Type: text/plain; charset=UTF-8
+
+Ricevuta di accettazione
+
+Il giorno 12/09/2023 alle ore 09:59:56 (+0200) il messaggio
+"Contratto firmato" proveniente da "alice@pec.example.it"
+ed indirizzato a:
+bob@pec.altro.it (posta certificata)
+e' stato accettato dal sistema.
+
+Identificativo messaggio: opec288.20230912095956.1.1@pec.example.it
+
+--INNER
+Content-Type: application/xml; name="daticert.xml"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="daticert.xml"
+
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHBvc3RhY2VydCB0aXBvPSJh
+Y2NldHRhemlvbmUiIGVycm9yZT0ibmVzc3VubyI+CiAgPGludGVzdGF6aW9uZT4KICAgIDxtaXR0
+ZW50ZT5hbGljZUBwZWMuZXhhbXBsZS5pdDwvbWl0dGVudGU+CiAgICA8ZGVzdGluYXRhcmkgdGlw
+bz0iY2VydGlmaWNhdG8iPmJvYkBwZWMuYWx0cm8uaXQ8L2Rlc3RpbmF0YXJpPgogICAgPHJpc3Bv
+c3RlPmFsaWNlQHBlYy5leGFtcGxlLml0PC9yaXNwb3N0ZT4KICAgIDxvZ2dldHRvPkNvbnRyYXR0
+byBmaXJtYXRvPC9vZ2dldHRvPgogIDwvaW50ZXN0YXppb25lPgogIDxkYXRpPgogICAgPGdlc3Rv
+cmUtZW1pdHRlbnRlPkV4YW1wbGUgUEVDIFMucC5BLjwvZ2VzdG9yZS1lbWl0dGVudGU+CiAgICA8
+ZGF0YSB6b25hPSIrMDIwMCI+PGdpb3Jubz4xMi8wOS8yMDIzPC9naW9ybm8+PG9yYT4wOTo1OTo1
+Njwvb3JhPjwvZGF0YT4KICAgIDxpZGVudGlmaWNhdGl2bz5vcGVjMjg4LjIwMjMwOTEyMDk1OTU2
+LjEuMUBwZWMuZXhhbXBsZS5pdDwvaWRlbnRpZmljYXRpdm8+CiAgICA8bXNnaWQ+Jmx0O2NsaWVu
+dC1pZEBtYWlsLmNsaWVudCZndDs8L21zZ2lkPgogIDwvZGF0aT4KPC9wb3N0YWNlcnQ+Cg==
+--INNER--
+
+--OUTER
+Content-Type: application/pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+
+AAECAwQFBgc=
+--OUTER--

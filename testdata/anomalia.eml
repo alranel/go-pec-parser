@@ -1,0 +1,32 @@
+MIME-Version: 1.0
+Date: Tue, 12 Sep 2023 11:00:00 +0200
+From: posta-certificata@pec.altro.it
+To: bob@pec.altro.it
+Subject: ANOMALIA MESSAGGIO: Hello from outside
+Message-ID: <opec777.20230912110000.1.1@pec.altro.it>
+X-Trasporto: errore
+Content-Type: multipart/mixed; boundary="INNER"
+
+--INNER
+Content-Type: text/plain; charset=UTF-8
+
+Anomalia messaggio
+
+Il messaggio e' stato consegnato nella casella di posta certificata
+ma non e' un messaggio di posta certificata.
+
+--INNER
+Content-Type: message/rfc822; name="postacert.eml"
+Content-Disposition: attachment; filename="postacert.eml"
+
+MIME-Version: 1.0
+Date: Tue, 12 Sep 2023 10:55:00 +0200
+From: someone@ordinary.example.com
+To: bob@pec.altro.it
+Subject: Hello from outside
+Message-ID: <ordinary-123@ordinary.example.com>
+Content-Type: text/plain; charset=UTF-8
+
+Hello, this is ordinary email delivered to a PEC mailbox.
+
+--INNER--

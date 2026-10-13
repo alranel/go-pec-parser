@@ -1,0 +1,36 @@
+MIME-Version: 1.0
+Date: Tue, 12 Sep 2023 10:05:00 +0200
+From: posta-certificata@pec.altro.it
+To: alice@pec.example.it
+Subject: AVVISO DI MANCATA CONSEGNA: Contratto firmato
+Message-ID: <opec999.20230912100500.1.1@pec.altro.it>
+X-Ricevuta: errore-consegna
+X-Riferimento-Message-ID: <client-id@mail.client>
+Content-Type: multipart/mixed; boundary="INNER"
+
+--INNER
+Content-Type: text/plain; charset=UTF-8
+
+Avviso di mancata consegna
+
+Il messaggio non e' stato consegnato perche' la casella e' piena.
+
+--INNER
+Content-Type: application/xml; name="daticert.xml"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="daticert.xml"
+
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHBvc3RhY2VydCB0aXBvPSJl
+cnJvcmUtY29uc2VnbmEiIGVycm9yZT0iYWx0cm8iPgogIDxpbnRlc3RhemlvbmU+CiAgICA8bWl0
+dGVudGU+YWxpY2VAcGVjLmV4YW1wbGUuaXQ8L21pdHRlbnRlPgogICAgPGRlc3RpbmF0YXJpIHRp
+cG89ImNlcnRpZmljYXRvIj5ib2JAcGVjLmFsdHJvLml0PC9kZXN0aW5hdGFyaT4KICAgIDxyaXNw
+b3N0ZT5hbGljZUBwZWMuZXhhbXBsZS5pdDwvcmlzcG9zdGU+CiAgICA8b2dnZXR0bz5Db250cmF0
+dG8gZmlybWF0bzwvb2dnZXR0bz4KICA8L2ludGVzdGF6aW9uZT4KICA8ZGF0aT4KICAgIDxnZXN0
+b3JlLWVtaXR0ZW50ZT5BbHRybyBQRUMgUy5wLkEuPC9nZXN0b3JlLWVtaXR0ZW50ZT4KICAgIDxk
+YXRhIHpvbmE9IiswMjAwIj48Z2lvcm5vPjEyLzA5LzIwMjM8L2dpb3Jubz48b3JhPjEwOjA1OjAw
+PC9vcmE+PC9kYXRhPgogICAgPGlkZW50aWZpY2F0aXZvPm9wZWMyODguMjAyMzA5MTIwOTU5NTYu
+MS4xQHBlYy5leGFtcGxlLml0PC9pZGVudGlmaWNhdGl2bz4KICAgIDxtc2dpZD4mbHQ7Y2xpZW50
+LWlkQG1haWwuY2xpZW50Jmd0OzwvbXNnaWQ+CiAgICA8Y29uc2VnbmE+Ym9iQHBlYy5hbHRyby5p
+dDwvY29uc2VnbmE+CiAgICA8ZXJyb3JlLWVzdGVzbz5DYXNlbGxhIHBpZW5hPC9lcnJvcmUtZXN0
+ZXNvPgogIDwvZGF0aT4KPC9wb3N0YWNlcnQ+Cg==
+--INNER--
